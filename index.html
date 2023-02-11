@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Password Strength Widgets</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <section class="section-template">
+      <img
+        src="https://i.pinimg.com/originals/0a/5f/ea/0a5feae400fc816c4ca2aca8bd67a168.jpg"
+        alt="user-avatar-image"
+      />
+      <h2>Sign Up</h2>
+      <h3>Enter your credentials</h3>
+      <form class="form-template">
+        <div class="username-container">
+          <input
+            class="form-control"
+            type="email"
+            placeholder="Email"
+            value="rajan@gmail.com"
+            autocomplete="off"
+            spellcheck="false"
+          />
+          <div id="spinner" class="spinner"></div>
+        </div>
+        <input
+          type="password"
+          id="password"
+          class="form-control"
+          placeholder="Password"
+          spellcheck="false"
+          onkeyup="handleChange()"
+        />
+        <div id="">
+          <div></div>
+        </div>
+        <div class="" id=""></div>
+        <button class="form-control" type="button">Join Now</button>
+      </form>
+    </section>
+  </body>
+  <script type="text/javascript" src="/js/main.js"></script>
+</html>
